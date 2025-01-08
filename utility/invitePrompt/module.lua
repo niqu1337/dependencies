@@ -7,8 +7,8 @@ local CG = game:GetService("CoreGui")
 -- Variables
 
 local SelfModules = {
-	UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/niqu1337/dependencies/refs/heads/prod/invitePrompt/ui.lua"))(),
-	Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/niqu1337/dependencies/refs/heads/prod/invitePrompt/function.lua"))(),
+	UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/niqu1337/dependencies/refs/heads/main/utility/invitePrompt/ui.lua"))(),
+	Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/niqu1337/dependencies/refs/heads/main/utility/invitePrompt/function.lua"))(),
 }
 
 local Inviter = { Connections = {} }
