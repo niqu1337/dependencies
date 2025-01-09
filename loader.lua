@@ -2,10 +2,11 @@ if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
 
-getgenv().isVerticalLoaded = true
 if getgenv().isVerticalLoaded then
 	warn("vertical.xyz >> Script is already loaded.")
+	return
 end
+getgenv().isVerticalLoaded = true
 
 local scripts = {
 	["universal"] = "https://api.luarmor.net/files/v3/loaders/67713a1dad2020bb1873d0f362bc8c8d.lua",
