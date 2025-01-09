@@ -9,7 +9,6 @@ end
 
 local scripts = {
 	["universal"] = "https://api.luarmor.net/files/v3/loaders/67713a1dad2020bb1873d0f362bc8c8d.lua",
-	["1962086868"] = "https://api.luarmor.net/files/v3/loaders/4b9de8273621d68af6e72c3a7fcfe951.lua" -- Tower of Hell
 	["142823291"] = "https://api.luarmor.net/files/v3/loaders/bf68a233b96671f585975414ba3c3f62.lua", -- Murder Mystery 2
 	["5602055394"] = "https://api.luarmor.net/files/v3/loaders/6535c4d3bac3bc97dbab047551105c82.lua", -- Hood Modded
 }
