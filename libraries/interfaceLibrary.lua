@@ -148,7 +148,6 @@ function library:new(props)
 			ResetOnSpawn = false,
 			ZIndexBehavior = "Global",
 			Parent = cre,
-			Enabled = false,
 		}
 	)
 	--
